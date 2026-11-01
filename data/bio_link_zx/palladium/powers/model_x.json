@@ -1,0 +1,33 @@
+{
+    "name": "Model X",
+    "persistent_data": true,
+    "background": "minecraft:textures/block/white_wool.png",
+    "icon": "minecraft:lapis_block",
+    "gui_display_type": "tree",
+    "abilities": {
+        "test_dummy": {
+            "type": "palladium:dummy",
+            "icon": "minecraft:end_crystal",
+            "title": "Test",
+            "bar_color": "light_blue",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "gui_frame_type": "task",
+            "description": "Teste de descrição",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:action",
+                        "cooldown": 0,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": false,
+                        "allow_scrolling_when_crouching": true
+                    }
+                ],
+                "unlocking": []
+            }
+        }
+    }
+}
