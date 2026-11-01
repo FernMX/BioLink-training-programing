@@ -5,25 +5,71 @@
     "icon": "minecraft:lapis_block",
     "gui_display_type": "tree",
     "abilities": {
-        "test_dummy": {
-            "type": "palladium:dummy",
+        "buster_laser": {
+            "type": "palladium:energy_beam",
             "icon": "minecraft:end_crystal",
-            "title": "Test",
+            "title": "FORÇA MÁXIMA",
             "bar_color": "light_blue",
             "hidden": false,
             "hidden_in_bar": false,
             "list_index": 0,
-            "gui_position": "null",
+            "gui_position": [0, 0],
             "gui_frame_type": "task",
-            "description": "Teste de descrição",
+            "description": "O potencial maximo do Modelo X, o tiro que carrega a alma de guerreiros Replois!",
+            "energy_beam": "bio_link_zx:buster_laser",
+            "damage_type": "null",
+            "damage": 10,
+            "max_distance": 20,
+            "speed": 1.5,
+            "set_on_fire_seconds": 0,
+            "cause_fire": false,
+            "smelt_blocks": true,
+            "commands_on_block_hit": [
+                "summon tnt ~ ~ ~"
+            ],
+            "commands_on_entity_hit": [
+                "summon tnt ~ ~ ~"
+            ],
             "conditions": {
                 "enabling": [
                     {
-                        "type": "palladium:action",
-                        "cooldown": 0,
+                        "type": "palladium:held",
+                        "cooldown": 30,
                         "key_type": "key_bind",
-                        "needs_empty_hand": false,
-                        "allow_scrolling_when_crouching": true
+                        "needs_empty_hand": true
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+        "dual_buster_laser": {
+            "type": "palladium:energy_beam",
+            "icon": "minecraft:end_crystal",
+            "title": "Dual buster laser",
+            "bar_color": "light_blue",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": [0, 1],
+            "gui_frame_type": "task",
+            "description": "Atire dois lasers",
+            "energy_beam": "bio_link_zx:dual_buster_laser",
+            "damage_type": "null",
+            "damage": 10,
+            "max_distance": 15,
+            "speed": 1.5,
+            "set_on_fire_seconds": 0,
+            "cause_fire": false,
+            "smelt_blocks": true,
+            "commands_on_block_hit": [],
+            "commands_on_entity_hit": [],
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:held",
+                        "cooldown": 30,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": true
                     }
                 ],
                 "unlocking": []
