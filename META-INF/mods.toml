@@ -16,7 +16,13 @@ A Megaman ZX Addon for palladium minecraft
 [[dependencies.bio_link_zx]]
 modId = "palladium"
 mandatory = true
-versionRange = ">=4.5.9"
+versionRange = "[4.4.1,)"
 ordering = "NONE"
 side = "BOTH"
  
+[[dependencies.bio_link_zx]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
