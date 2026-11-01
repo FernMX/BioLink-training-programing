@@ -1,0 +1,137 @@
+[
+    {
+        "type": "palladium:laser",
+        "body_part": "right_arm",
+        "glow_color": "#1AA5E6",
+        "core_color": "#B1DEF3",
+        "rainbow": false,
+        "glow_opacity": 1,
+        "core_opacity": 1,
+        "bloom": 7,
+        "size": 7,
+        "normal_transparency": false,
+        "rotation": 0,
+        "rotation_speed": 0,
+        "visibility": {
+            "first_person": false,
+            "third_person": true
+        },
+        "offset": [
+            -1,
+            -10,
+            0
+        ]
+    },
+    {
+        "type": "palladium:lightning",
+        "body_part": "right_arm",
+        "segments": 5,
+        "frequency": 2,
+        "spread": 5,
+        "glow_color": "#FFF785",
+        "core_color": "#FFD900",
+        "rainbow": false,
+        "glow_opacity": 1,
+        "core_opacity": 1,
+        "bloom": 7,
+        "size": 7,
+        "normal_transparency": false,
+        "rotation": 0,
+        "rotation_speed": 0,
+        "visibility": {
+            "first_person": false,
+            "third_person": true
+        },
+        "offset": [
+        -1,
+        -10,
+        0
+    ]
+    },
+    {
+        "type": "palladium:lightning",
+        "body_part": "right_arm",
+        "segments": 5,
+        "frequency": 2,
+        "spread": 5,
+        "glow_color": "#B12BAA",
+        "core_color": "#ffffff",
+        "rainbow": false,
+        "glow_opacity": 1,
+        "core_opacity": 1,
+        "bloom": 7,
+        "size": 7,
+        "normal_transparency": false,
+        "rotation": 1,
+        "rotation_speed": 10,
+        "visibility": {
+            "first_person": false,
+            "third_person": true
+        },
+        "offset": [
+            -1,
+            -10,
+            0
+        ]
+    },
+    {
+        "type": "palladium:laser",
+        "body_part": "right_arm",
+        "glow_color": "#1AA5E6",
+        "core_color": "#B1DEF3",
+        "rainbow": false,
+        "glow_opacity": 1,
+        "core_opacity": 1,
+        "bloom": 5,
+        "size": 4,
+        "normal_transparency": false,
+        "rotation": 0,
+        "rotation_speed": 0,
+        "visibility": {
+            "first_person": true,
+            "third_person": false
+        }
+    },
+    {
+        "type": "palladium:lightning",
+        "body_part": "right_arm",
+        "segments": 5,
+        "frequency": 2,
+        "spread": 5,
+        "glow_color": "#FFF785",
+        "core_color": "#FFD900",
+        "rainbow": false,
+        "glow_opacity": 1,
+        "core_opacity": 1,
+        "bloom": 5,
+        "size": 4,
+        "normal_transparency": false,
+        "rotation": 0,
+        "rotation_speed": 0,
+        "visibility": {
+            "first_person": true,
+            "third_person": false
+        }
+    },
+    {
+        "type": "palladium:lightning",
+        "body_part": "right_arm",
+        "segments": 5,
+        "frequency": 2,
+        "spread": 5,
+        "glow_color": "#B12BAA",
+        "core_color": "#ffffff",
+        "rainbow": false,
+        "glow_opacity": 1,
+        "core_opacity": 1,
+        "bloom": 5,
+        "size": 5,
+        "normal_transparency": false,
+        "rotation": 1,
+        "rotation_speed": 10,
+        "visibility": {
+            "first_person": true,
+            "third_person": false
+        }
+    }
+]
