@@ -12,7 +12,7 @@
             "bar_color": "light_blue",
             "hidden": false,
             "hidden_in_bar": false,
-            "list_index": -1,
+            "list_index": 0,
             "gui_position": "null",
             "gui_frame_type": "task",
             "description": "Teste de descrição",
