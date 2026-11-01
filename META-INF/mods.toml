@@ -1,0 +1,22 @@
+modLoader="lowcodefml"
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="bio_link_zx"
+version="1.0.0"
+logoFile = "logo.png"
+logoBlur = false
+displayName="Bio-Link"
+description='''
+A Megaman ZX Addon for palladium minecraft
+'''
+
+[[dependencies.bio_link_zx]]
+modId = "palladium"
+mandatory = true
+versionRange = ">=4.5.9"
+ordering = "NONE"
+side = "BOTH"
+ 

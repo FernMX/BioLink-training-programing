@@ -1,0 +1,13 @@
+{
+    "schemaVersion": 1,
+    "authors": [
+        "FernMX"
+    ],
+    "environment": "*",
+    "id": "bio_link_zx",
+    "version": "1.0.0",
+    "name": "Bio-Link",
+    "description": "A Megaman ZX Addon for palladium minecraft",
+    "icon": "logo.png",
+    "license": "All rights reserved"
+}

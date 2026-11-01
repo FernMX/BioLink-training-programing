@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "id": "bio_link_zx",
+        "pack_format": 15,
+        "description": "A Megaman ZX Addon for palladium minecraft",
+        "version": "1.0.0"
+    },
+    "dependencies": {
+        "common": {},
+        "fabric": {},
+        "forge": {}
+    }
+}
